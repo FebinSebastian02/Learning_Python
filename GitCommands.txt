@@ -1,0 +1,27 @@
+1)  git config --global user.name "Febin Sebastian" -> To set user name to git repo
+2)  git config --global user.email febin.vadakkan@gmail.com -> To set email to git repo
+3)  git config --global init.default branch main -> Initializing default branch as main
+4)  git -h     -> To get help
+5)  git init   -> To initialize repo in the local directory
+6)  git status -> To check the status of repo
+7)  git log    -> To check the commits in repo
+8)  git log -p -> To check the commits and corresponding changes in detal. Enter to go downwards, q to quit
+9)  git branch -> To see the number of branches in repo
+10) git branch branchName      	      -> To create a feature branch
+11) git branch -d branchName   	      -> To delete a branch
+12) git switch branchName      	      -> To switch to a branch
+13) git diff                          -> To compare differences between old and new changes
+14) git add fileName 	       	      -> To add a file to the repo for tracking and the file is now in staging process
+15) git restore --staged fileName     -> To reverse staging.
+16) git commit -m "Message"    	      -> To commit the changes made in the repo
+17) git commit -a -m "Message" 	      -> To add and commit in one step
+18) git merge -m "Message" featureBranchName -> To merge a feature branch to the main branch. This step is done after switching repo to main branch
+19) git push                                 -> To push code into cloud(github branch)
+20) git rm --cached fileName                 -> To delete cache file from tracked list
+21) git rm -f fileName                       -> To delete file from repo forcefully
+22) git remote add origin linkToGithubRepo   -> To setup remote connection with github repo from local repo
+23) git branch -M main                       -> To set target branch as main
+24) git push -u origin main                  -> To push all files to main branch
+25) git fetch                                -> To fetch all changes from git hub repo to local repo
+26) git merge                                -> To merge all changes to local repo
+27) git pull                                 -> To fetch and merge all changes from git hub repo to local repo together
