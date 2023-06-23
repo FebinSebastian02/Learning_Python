@@ -18,4 +18,4 @@ person('Febin', age = 24, city = 'Thrissur', mob = 944)
 def person(name, **data):
     for i, j in data.items():
         print(i,j)
-person('Febin', age = 24, city = 'Thrissur', mob = 944)
+person('Febin', age = 24, city = 'Thrissur', mobNo = 944)
