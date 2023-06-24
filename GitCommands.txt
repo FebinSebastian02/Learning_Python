@@ -1,5 +1,5 @@
-1)  git config --global user.name "Febin Sebastian" -> To set user name to git repo
-2)  git config --global user.email febin.vadakkan@gmail.com -> To set email to git repo
+1)  git config --global user.name "userName" -> To set user name to git repo
+2)  git config --global user.email emailId -> To set email to git repo
 3)  git config --global init.default branch main -> Initializing default branch as main
 4)  git -h     -> To get help
 5)  git init   -> To initialize repo in the local directory
