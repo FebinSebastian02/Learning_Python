@@ -4,14 +4,15 @@
 #the methods in first class as well in the second class, then we need to mention that class 2 is the child of class 1.
 
 #Here, the Inheritance comes into picture. That is, whatever belongs to the parent class(super class), belongs to the
-#child class(sub class) as well.
+#child class(sub class) as well. Sub class can access the features of Super class. But, Super class can't access the features
+#of Sub class.
 
 #Types of Inheritance:-
 #a) Single level Inheritance - 1 sub class inheriting 1 super class
 #eg:- B inheriting A
 #b) Multilevel Inheritance - 1 sub class inheriting 1 super class and it's superior super class.
 #eg:- C inheriting B
-#c) Multiple Inheritance:- 1 child class inheriting 2 parent classes
+#c) Multiple Inheritance:- 1 child class inheriting more than 1 parent classes
 #eg:- E inheriting A and D
 class A:
     def func1(self):
