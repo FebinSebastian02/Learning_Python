@@ -6,6 +6,8 @@
 #Here, the Inheritance comes into picture. That is, whatever belongs to the parent class(super class), belongs to the
 #child class(sub class) as well. Sub class can access the features of Super class. But, Super class can't access the features
 #of Sub class.
+#Code Reusability is the main advantage of Inheritance. If 1 class have certain methods that we need for another class, we can
+#avoid defining the same methods in class 1 by Inheritance.
 
 #Types of Inheritance:-
 #a) Single level Inheritance - 1 sub class inheriting 1 super class
